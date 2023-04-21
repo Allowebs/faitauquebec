@@ -14,20 +14,21 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch --mode=development",
+    "dev": "webpack --watch --mode=development",
+    "start": "webpack --watch --mode=production",
     "postinstall": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deborahwei/pinteresting.git"
+    "url": "git+https://github.com/Allowebs/faitauquebec.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deborahwei/pinteresting/issues"
+    "url": "https://github.com/Allowebs/faitauquebec/issues"
   },
-  "homepage": "https://github.com/deborahwei/pinteresting#readme",
+  "homepage": "https://github.com/Allowebs/faitauquebec#readme",
   "dependencies": {
     "@babel/core": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
